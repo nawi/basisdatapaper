@@ -1,0 +1,33 @@
+Find a software for reporting services server web based.
+
+LIST :
+-  Crystal Report Server
+-  Jasper
+-  Microsoft Business Intelligence Report
+-  
+
+
+Reports :
+-  List of enrolled students
+-  List of accepted students
+   select students which meets the criteria 
+-  List of students
+-  List of registered students \'97 have student id
+
+
+
+Forms :
+-  Enrollment
+-  Payment <-> Automatic by System :
+no_pen, issuer_id, total 
+-  Score Entry : nopen, exam_id, score
+-  Score Configuration : exam_id, min_score
+
+Procedure :
+NIM_Generator
+No_Test_Generator
+No_Pen_Generator
+
+Trigger :
+before insert table enrollment called No_Pen_Generator
+
