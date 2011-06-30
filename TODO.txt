@@ -31,3 +31,10 @@ No_Pen_Generator
 Trigger :
 before insert table enrollment called No_Pen_Generator
 
+Entitas :
+Mahasiswa
+Sekolah Asal
+Tempat / Ruang Ujian
+Soal Ujian
+
+
